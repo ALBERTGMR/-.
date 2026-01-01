@@ -1,0 +1,57 @@
+focus_tree = {
+
+	id = sweden
+
+	country = {
+
+		factor = 0
+
+		modifier = {
+
+			add = 10
+
+			tag = SWE
+
+		}
+
+	}
+
+	default = no
+
+	focus = {
+
+		id = SWE_politics
+
+		icon = GFX_goal_generic_intelligence_exchange
+
+		cost = 10.00
+
+		ai_will_do = {
+
+			factor = 10
+
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		
+
+		available_if_capitulated = yes
+
+		
+
+		x = 5
+
+		y = 0
+
+		
+
+		completion_reward = {
+
+			add_political_power = 100
+
+		}
+
+	}
+
+}
