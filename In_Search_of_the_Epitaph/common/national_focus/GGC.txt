@@ -1,0 +1,275 @@
+focus_tree = {
+	id = GGC_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GGC
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	# ===============================
+	# 1962년 신년사
+	# ===============================
+	focus = {
+		id = GGC_new_year_1962
+		icon = GFX_goal_GGC_new_year_1962
+		x = 50
+		y = 0
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_look_back_last_year
+		icon = GFX_goal_GGC_look_back
+		prerequisite = { focus = GGC_new_year_1962 }
+		x = 50
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_purge_debate
+		icon = GFX_goal_GGC_purge_debate
+		prerequisite = { focus = GGC_look_back_last_year }
+		x = 50
+		y = 2
+		cost = 10
+	}
+
+	# ===============================
+	# 임투 지도부 처벌 (상호 베타)
+	# ===============================
+	focus = {
+		id = GGC_lenient_purge
+		icon = GFX_goal_GGC_lenient_purge
+		prerequisite = { focus = GGC_purge_debate }
+		mutually_exclusive = { focus = GGC_harsh_purge }
+		x = 47
+		y = 3
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_harsh_purge
+		icon = GFX_goal_GGC_harsh_purge
+		prerequisite = { focus = GGC_purge_debate }
+		mutually_exclusive = { focus = GGC_lenient_purge }
+		x = 53
+		y = 3
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_resolve_imtu_issue
+		icon = GFX_goal_GGC_resolve_imtu
+		prerequisite = {
+			focus = GGC_lenient_purge
+			focus = GGC_harsh_purge
+		}
+		x = 50
+		y = 4
+		cost = 10
+	}
+
+	# ===============================
+	# 다시 조선을 돌아보자
+	# ===============================
+	focus = {
+		id = GGC_return_to_joseon
+		icon = GFX_goal_GGC_return_to_joseon
+		prerequisite = { focus = GGC_resolve_imtu_issue }
+		x = 50
+		y = 5
+		cost = 10
+	}
+
+	# ===============================
+	# 좌측 – 자치의회 혼란
+	# ===============================
+	focus = {
+	id = GGC_autonomous_council_chaos
+	icon = GFX_goal_GGC_council_chaos
+	prerequisite = { focus = GGC_return_to_joseon }
+	x = 43
+	y = 6
+	cost = 10
+	}
+
+	focus = {
+		id = GGC_suppress_chaos
+		icon = GFX_goal_GGC_suppress_chaos
+		prerequisite = { focus = GGC_autonomous_council_chaos }
+		x = 43
+		y = 7
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_suspend_council
+		icon = GFX_goal_GGC_suspend_council
+		prerequisite = { focus = GGC_suppress_chaos }
+		x = 43
+		y = 8
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_fire_extinguished
+		icon = GFX_goal_GGC_fire_extinguished
+		prerequisite = { focus = GGC_suspend_council }
+		x = 43
+		y = 9
+		cost = 10
+	}
+
+
+	# ===============================
+	# 중앙 – 후잔의 적신호
+	# ===============================
+	focus = {
+		id = GGC_hoojan_warning
+		icon = GFX_goal_GGC_hoojan_warning
+		prerequisite = { focus = GGC_return_to_joseon }
+		x = 50
+		y = 6
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_encourage_joseon_corporations
+		icon = GFX_goal_GGC_corporations
+		prerequisite = { focus = GGC_hoojan_warning }
+		mutually_exclusive = { focus = GGC_cut_labor_costs }
+		x = 47
+		y = 7
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_cut_labor_costs
+		icon = GFX_goal_GGC_labor_cuts
+		prerequisite = { focus = GGC_hoojan_warning }
+		mutually_exclusive = { focus = GGC_encourage_joseon_corporations }
+		x = 53
+		y = 7
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_missing_returns
+		icon = GFX_goal_GGC_missing_returns
+		prerequisite = { focus = GGC_encourage_joseon_corporations }
+		x = 47
+		y = 8
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_more_workers_more_money
+		icon = GFX_goal_GGC_more_workers
+		prerequisite = { focus = GGC_cut_labor_costs }
+		x = 53
+		y = 8
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_black_scar_legacy
+		icon = GFX_goal_GGC_black_scar
+		prerequisite = {
+			focus = GGC_missing_returns
+			focus = GGC_more_workers_more_money
+		}
+		x = 50
+		y = 9
+		cost = 10
+	}
+
+	# ===============================
+	# 우측 – 갱조 오브 조선
+	# ===============================
+	focus = {
+		id = GGC_gang_era_joseon
+		icon = GFX_goal_GGC_gang_era
+		prerequisite = { focus = GGC_return_to_joseon }
+		x = 57
+		y = 6
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_strengthen_policing
+		icon = GFX_goal_GGC_policing
+		prerequisite = { focus = GGC_gang_era_joseon }
+		x = 57
+		y = 7
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_crack_down_gangs
+		icon = GFX_goal_GGC_crack_gangs
+		prerequisite = { focus = GGC_strengthen_policing }
+		x = 57
+		y = 8
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_war_on_crime
+		icon = GFX_goal_GGC_war_on_crime
+		prerequisite = { focus = GGC_crack_down_gangs }
+		x = 57
+		y = 9
+		cost = 10
+	}
+
+
+	# ===============================
+	# 통합 엔딩
+	# ===============================
+	focus = {
+		id = GGC_internal_report
+		icon = GFX_goal_GGC_internal_report
+		prerequisite = {
+			focus = GGC_fire_extinguished
+			focus = GGC_black_scar_legacy
+			focus = GGC_war_on_crime
+		}
+		x = 50
+		y = 10
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_grim_determination
+		icon = GFX_goal_GGC_grim_determination
+		prerequisite = { focus = GGC_internal_report }
+		x = 50
+		y = 11
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_restore_rule_of_law
+		icon = GFX_goal_GGC_rule_of_law
+		prerequisite = { focus = GGC_grim_determination }
+		x = 50
+		y = 12
+		cost = 10
+	}
+
+	focus = {
+		id = GGC_new_joseon
+		icon = GFX_goal_GGC_new_joseon
+		prerequisite = { focus = GGC_restore_rule_of_law }
+		x = 50
+		y = 13
+		cost = 10
+	}
+}
