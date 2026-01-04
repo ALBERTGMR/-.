@@ -1,0 +1,34 @@
+characters={
+	GGC_Sato_Eisaku= {
+		name = GGC_Sato_Eisaku
+		description = GGC_Sato_Eisaku_desc
+		portraits = {
+			civilian = {
+				large = GFX/leaders/GGC/GGC_Sato_Eisaku.png
+			}
+		}
+
+		country_leader = {
+                        desc = "POLITICS_EISAKU_SATO_DESC"
+			ideology = despotism_colonial_government_subtype
+			traits = { GGC_Governor_General_of_Chosen }
+			expire = "1989.9.9.9"
+			id = -1
+		}
+	}
+		GGC_Nakajima_Ikken= {
+		name = GGC_Nakajima_Ikken
+		portraits = {
+			civilian = {
+				large = GFX/leaders/GGC/GGC_Sato_Eisaku.png
+			}
+		}
+
+		country_leader = {
+                        desc = "POLITICS_EISAKU_SATO_DESC"
+			ideology = despotism_colonial_government_subtype
+			traits = { GGC_Governor_General_of_Chosen }
+			expire = "1989.9.9.9"
+			id = -1
+		}
+	}

@@ -1,0 +1,56 @@
+ideas = {
+    country = {
+        GGC_Failure_of_Naisen_Ittai = {
+            allowed = {
+                always = yes
+            }
+
+            picture = GGC_Failure_of_Naisen_Ittai
+
+            modifier = {
+                admin_costs_misc = -0.15          # 행정 기타 비용 (십억 달러 기준) -1.5%
+                political_power_factor = -0.02     # 정치력 -2%
+                conscription = -0.05              # 인력 모집 계수 감소 -0.5%
+			    }
+            }
+        GGC_61_Strike_Fallout = {
+            allowed = {
+                always = yes
+            }
+
+            picture = GGC_Strike_Fallout
+
+            modifier = {
+                MOBILIZATION_SPEED = -0.03          # 동원속도 -3%
+                COMPLIANCE_GAIN_ADD = -0.02     # 매일 순응도 획득 -2%
+                PRODUCTION_SPEED_BUILDINGS_FACTOR = -0.01              # 건설속도 -1%
+				CIVILIAN_FACTORY_USE = -0.035     # 민간공장 사용량 -3.5%
+			}
+        }
+        GGC_Recall_of_Police = {
+            allowed = {
+                always = yes
+            }
+
+            picture = GFX_idea_GGC_Recall_of_Police
+
+            modifier = {
+                POLITICAL_POWER_FACTOR = 0.02          # 정치력 획득 2%
+                STABILITY_WEEKLY = 0.05              # 매주 안정도 5%
+				STABILITY_WEEKLY_FACTOR = 0.05     # 매주 안정도 획득 5%
+			}
+        }
+        GGC_Chosen_Constabulary = {
+            allowed = {
+                always = yes
+            }
+
+            picture = GFX_idea_GGC_Chosen_Constabulary
+
+            modifier = {
+                STABILITY_WEEKLY = 0.03              # 매주 안정도 3%
+				STABILITY_WEEKLY_FACTOR = 0.03     # 매주 안정도 획득 3%
+			}
+        }
+    }
+}
