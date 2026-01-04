@@ -1,1 +1,0 @@
-GGC = "countries/Beautiful_Country.txt"
