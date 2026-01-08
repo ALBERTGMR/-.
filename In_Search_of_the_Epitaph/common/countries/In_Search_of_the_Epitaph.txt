@@ -1,4 +1,0 @@
-﻿graphical_culture = oriental_2d
-graphical_culture_2d = oriental_2d
-
-color = rgb { 119 37 37 }
