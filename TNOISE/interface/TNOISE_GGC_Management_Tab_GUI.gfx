@@ -1,0 +1,31 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_GGC_Management_Tab_Open_Button"
+		texturefile = "gfx/interface/GGC_internal_gui/GGC_Management_Tab_Open_Button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGC_Management_Tab_Background"
+		texturefile = "gfx/interface/GGC_internal_gui/GGC_Management_Tab_Background.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_GGC_Internal_GUI_RCC_logo"
+		texturefile = "gfx/interface/GGC_internal_gui/GGC_Internal_GUI_RCC_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_GGC_Management_Tab_Activist_circle"
+		texturefile = "gfx/interface/GGC_internal_gui/GGC_Management_Tab_Activist_circle.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGC_Management_Tab_Chesen_ Assembly"
+		texturefile = "gfx/interface/GGC_internal_guiGGC_Management_Tab_Chesen_ Assembly.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_GGC_Management_Tab_RCC"
+		texturefile = "gfx/interface/GGC_internal_gui/GGC_Management_Tab_RCC.dds"
+	}
