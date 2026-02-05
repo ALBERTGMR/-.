@@ -1,0 +1,31 @@
+capital = 962
+oob = "GGC_1936"
+
+set_politics = {
+    ruling_party = despotism
+    last_election = "1960.5.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+    despotism = 55
+    fascism = 20
+    paternalism = 15
+    conservatism = 10
+}
+
+recruit_character = GGC_Sato_Eisaku
+recruit_character = GGC_Abe_Shintaro
+recruit_character = GGC_Kanemura_Shunei
+recruit_character = GGC_Nakajima_Ikken
+
+add_ideas = {
+    GGC_Failure_of_Naisen_Ittai
+    GGC_61_Strike_Fallout
+    GGC_Recall_of_Police
+    GGC_Chosen_Constabulary
+    
+    free_trade
+    disarmed_nation
+} 
