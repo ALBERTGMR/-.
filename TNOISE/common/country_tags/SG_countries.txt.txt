@@ -1,1 +1,0 @@
-GGC = "countries/In_Search_of_the_Epitaph.txt"
