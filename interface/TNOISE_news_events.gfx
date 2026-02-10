@@ -1,0 +1,30 @@
+﻿#News Event Pics GFX
+
+#Index; Search for these names using CTRL+F and you'll find the section they entitle.
+#Subfolders of each section are ordered alphabetically
+#Event Pics names should be in format "GFX_news_event_TAG_name" with some exceptions for generic and global events
+#	a) Generic
+#	b) Global
+#	c) Proxy Wars
+#	d) Africa
+#	e) Asia
+#	f) LATAM
+#	g) OFN
+#	h) Reich
+#	i) Russia
+#	j) Triumvirate
+#	k) Zombie
+
+spriteTypes = {
+	################
+	###   ASIA   ###
+	################
+	## China ##
+
+	## Chosen ##
+    spriteType = {
+        name = "GFX_news_event_GGC_Shintaro_resignation"
+        texturefile = "gfx/event_pictures/Asia/Chosen/TNOISE_news_event_GGC_Shintaro_resignation.dds"
+    }
+	## Japan ##
+}

@@ -1,0 +1,114 @@
+characters={
+	GGC_Sato_Eisaku= {
+		name = GGC_Sato_Eisaku
+		description = GGC_Sato_Eisaku_desc
+		portraits = {
+			civilian = {
+				large = GFX/leaders/GGC/GGC_Sato_Eisaku.png
+			}
+		}
+
+		country_leader = {
+                        desc = "POLITICS_SATO_EISAKU_DESC"
+			ideology = despotism_colonial_government_subtype
+			traits = { GGC_Governor_General_of_Chosen }
+			expire = "1989.9.9.9"
+			id = -1
+		}
+	}
+		GGC_Nakajima_Ikken= {
+		name = GGC_Nakajima_Ikken
+		portraits = {
+			civilian = {
+				large = GFX/leaders/GGC/GGC_Nakajima_Ikken.png
+			}
+		}
+
+		country_leader = {
+                        desc = "POLITICS_Nakajima_Ikken_DESC"
+			ideology = fascism_corporate_statism_subtype
+			traits = { GGC_Governor_General_of_Chosen }
+			expire = "1989.9.9.1"
+			id = -1
+		}
+	}
+		GGC_Ito_Masayoshi= {
+		name = GGC_Ito_Masayoshi
+		portraits = {
+			civilian = {
+				large = GFX/leaders/GGC/GGC_Ito_Masayoshi.png
+			}
+		}
+
+		country_leader = {
+                        desc = "POLITICS_Ito_Masayoshi_DESC"
+			ideology = despotism_colonial_government_subtype
+			traits = { GGC_Governor_General_of_Chosen }
+			expire = "1989.9.9.1"
+			id = -1
+		}
+	}
+		GGC_Kim_jong_pil= {
+		name = GGC_Kim_jong_pil
+		portraits = {
+			civilian = {
+				large = GFX/leaders/GGC/GGC_Kim_jong_pil.png
+			}
+		}
+
+		country_leader = {
+                        desc = "POLITICS_Kim_jong_pil_DESC"
+			ideology = conservatism_paternalistic_conservatism_subtype
+			traits = { GGC_Governor_General_of_Chosen }
+			expire = "1989.9.9.1"
+			id = -1
+		}
+	}
+		GGC_Kim_young_sam= {
+		name = GGC_Kim_young_sam
+		portraits = {
+			civilian = {
+				large = GFX/leaders/GGC/GGC_Kim_young_sam.png
+			}
+		}
+
+		country_leader = {
+                        desc = "POLITICS_Kim_young_sam_DESC"
+			ideology = liberalism_national_liberal_subtype
+			traits = { GGC_Governor_General_of_Chosen }
+			expire = "1989.9.9.1"
+			id = -1
+		}
+	}
+		GGC_Toyota_Daichu= {
+		name = GGC_Toyota_Daichu
+		portraits = {
+			civilian = {
+				large = GFX/leaders/GGC/GGC_Toyota_Daichu.png
+			}
+		}
+
+		country_leader = {
+                        desc = "POLITICS_Toyota_Daichu_DESC"
+			ideology = paternalism_right_wing_populism
+			traits = { GGC_Governor_General_of_Chosen }
+			expire = "1989.9.9.1"
+			id = -1
+		}
+	}
+		GGC_vacancy= {
+		name = GGC_vacancy
+		portraits = {
+			civilian = {
+				large = GFX/leaders/GGC/GGC_vacancy.png
+			}
+		}
+
+		country_leader = {
+                        desc = "POLITICS_GGC_vacancy_DESC"
+			ideology = despotism_colonial_government_subtype
+			traits = { GGC_Governor_General_of_Chosen }
+			expire = "1989.9.9.1"
+			id = -1
+		}
+	}
