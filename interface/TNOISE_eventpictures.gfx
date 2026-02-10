@@ -1,9 +1,0 @@
-spriteTypes = { ### Only for report/country event pictures, news events go in TNOLAR_news_events.gfx
-
-	### TNOISE RGOC EVENTS ###
-	
-	spriteType = {
-		name = "GFX_report_event_GGC_Father_son_law"
-		texturefile = "gfx/event_pictures//report_event_GGC_Father_son_law.png"
-	}
-}
