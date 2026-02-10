@@ -1,0 +1,47 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GGC_new_year_1962"
+		texturefile = "gfx/interface/goals/GGC_goal_new_year_1962.dds"
+    }
+	
+	spriteType = {
+		name = "GFX_GGC_ Tolerance_Punishment"
+		texturefile = "gfx/interface/goals/GGC_goal_Tolerance_Punishment.dds"
+	}
+	spriteType = {
+		name = "GFX_GGC_Harsh_penalty _Punishment"
+		texturefile = "gfx/interface/goals/GGC_goal_Harsh_penalty _Punishment.dds"
+	}
+	spriteType = {
+		name = "GFX_GGC_Problem_Solving"
+		texturefile = "gfx/interface/goals/GGC_goal_Problem_Solving.dds"
+	}
+	spriteType = {
+		name = "GFX_GGC_discussion_punishment"
+		texturefile = "gfx/interface/goals/GGC_goal_discussion_punishment.dds"
+	}
+	spriteType = {
+		name = "GFX_GGC_Assembly_Chaos"
+		texturefile = "gfx/interface/goals/GGC_goal_Assembly_Chaos.dds"
+	}
+	spriteType = {
+		name = "GFX_GGC_Strengthening_public_safety"
+		texturefile = "gfx/interface/goals/GGC_goal_Strengthening_public_safety.dds"
+	}
+	spriteType = {
+		name = "GFX_GGC_towards_peace"
+		texturefile = "gfx/interface/goals/GGC_goal_towards_peace.dds"
+	}
+	spriteType = {
+		name = "GFX_GGC_red_light_fuzan"
+		texturefile = "gfx/interface/goals/GGC_goal_red_light_fuzan.dds"
+	}
+	spriteType = {
+		name = "GFX_GGC_adjournment"
+		texturefile = "gfx/interface/goals/GGC_goal_adjournment.dds"
+	}
+		spriteType = {
+		name = "GFX_GGC_calm_down"
+		texturefile = "gfx/interface/goals/GGC_goal_calm_down.dds"
+	}
+}
